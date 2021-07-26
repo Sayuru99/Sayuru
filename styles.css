@@ -1,0 +1,48 @@
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif
+}
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px;background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px
+}
+/*hr*/
+
+p {
+  margin: 0 0 30px 0;
+}
+/* footer section*/
+#footer {
+  text-align: center;
+}
+.social-icon {
+  color: white;
+  margin: 20px 10px;
+}
+
+.copyright {
+  font-size: x-small;
+  color: #8f8f8f;
+}
+@media only screen and (max-width: 1024px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+  #icon-bar{
+  }
+   #yu {
+       text-align: center;
+   }
+  #ru {
+      text-align: center;
+  }
+  #hori {
+        width:100px;
+         margin: auto;
+  }
